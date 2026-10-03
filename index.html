@@ -1,0 +1,6004 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Cinzel:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:Poppins,sans-serif;
+background:#020617;
+color:white;
+overflow-x:hidden;
+
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#8b5cf6;
+border-radius:20px;
+
+}
+
+/* Background */
+
+body::before{
+
+content:'';
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:
+
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.6)),
+url("perfect.jpg");
+
+background-size:cover;
+background-position:center;
+z-index:-5;
+
+}
+
+/* Stars */
+
+.stars{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:hidden;
+z-index:-4;
+
+}
+
+.star{
+
+position:absolute;
+background:white;
+border-radius:50%;
+animation:twinkle 2s infinite alternate;
+
+}
+
+@keyframes twinkle{
+
+from{
+
+opacity:.2;
+transform:scale(.5);
+
+}
+
+to{
+
+opacity:1;
+transform:scale(1.4);
+
+}
+
+}
+
+/* Loading Screen */
+
+#loader{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#020617;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+z-index:99999;
+
+}
+
+.loader-title{
+
+font-size:34px;
+font-family:Cinzel;
+margin-bottom:25px;
+color:#8b5cf6;
+
+}
+
+#typing{
+
+font-size:20px;
+height:35px;
+
+}
+
+.loading-bar{
+
+margin-top:40px;
+width:320px;
+height:8px;
+background:#1e293b;
+border-radius:50px;
+overflow:hidden;
+
+}
+
+.progress{
+
+height:100%;
+width:0;
+background:linear-gradient(90deg,#8b5cf6,#38bdf8);
+animation:load 5s linear forwards;
+
+}
+
+@keyframes load{
+
+100%{
+
+width:100%;
+
+}
+
+}
+
+.enter-btn{
+
+display:none;
+
+margin-top:40px;
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:40px;
+
+font-size:18px;
+
+cursor:pointer;
+
+background:#8b5cf6;
+
+color:white;
+
+transition:.4s;
+
+}
+
+.enter-btn:hover{
+
+transform:scale(1.1);
+
+background:#38bdf8;
+
+}
+
+/* Hero */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:30px;
+
+}
+
+.hero-content{
+
+backdrop-filter:blur(18px);
+
+background:rgba(255,255,255,.08);
+
+padding:60px;
+
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.15);
+
+animation:fade 2s;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.hero h1{
+
+font-size:65px;
+
+font-family:Great Vibes;
+
+color:#fff;
+
+}
+
+.hero h2{
+
+margin-top:10px;
+
+font-size:42px;
+
+font-family:Cinzel;
+
+}
+
+.hero p{
+
+margin-top:25px;
+
+font-size:20px;
+
+line-height:35px;
+
+color:#ddd;
+
+}
+
+.scroll{
+
+margin-top:45px;
+
+font-size:35px;
+
+animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+50%{
+
+transform:translateY(15px);
+
+}
+
+}
+
+/* Floating Hearts */
+
+.heart{
+
+position:fixed;
+
+bottom:-50px;
+
+font-size:20px;
+
+animation:floatHeart 9s linear infinite;
+
+opacity:.6;
+
+}
+
+@keyframes floatHeart{
+
+0%{
+
+transform:translateY(0);
+
+opacity:0;
+
+}
+
+20%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+opacity:0;
+
+}
+
+}
+
+section{
+
+padding:120px 8%;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<div class="loader-title">
+
+Birthday Protocol
+
+</div>
+
+<div id="typing"></div>
+
+<div class="loading-bar">
+
+<div class="progress"></div>
+
+</div>
+
+<button class="enter-btn" onclick="startWebsite()">
+
+✨ Enter Birthday Universe
+
+</button>
+
+</div>
+
+<div class="stars"></div>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Happy Birthday ❤️</h1>
+
+<h2>To My Favorite Human</h2>
+
+<p>
+
+To the kindest...
+
+funniest...
+
+most handsome...
+
+Huchaaaaa....
+
+today is all about YOU.
+
+</p>
+
+<div class="scroll">
+
+↓
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Gallery Section Starts Here -->
+
+<!-- PART 2 -->
+
+<!-- ========================= -->
+
+<!-- MAIN CHARACTER GALLERY -->
+
+<!-- ========================= -->
+
+<section id="gallery">
+
+<h1 class="gallery-title">
+✨ The Main Character Gallery ✨
+</h1>
+
+<p class="gallery-subtitle">
+Because one picture was never enough❤️
+</p>
+
+<div class="gallery-container">
+
+<div class="photo-card">
+<img src="potoooo\dreamy.jpeg">
+<div class="caption">
+❤️ Dreamy
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\hottie.jpeg">
+<div class="caption">
+🔥 Hottie
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\mejestic.jpeg">
+<div class="caption">
+✨ Mejestic
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\adorable.jpeg">
+<div class="caption">
+💙 Adorable
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\obsessed.jpeg">
+<div class="caption">
+🌸 obsessed
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\charming.jpeg">
+<div class="caption">
+👑 Charming
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\favv.jpeg">
+<div class="caption">
+😍 Favourite
+</div>
+</div>
+
+<div class="photo-card">
+<img src="potoooo\breathtaking.jpeg">
+<div class="caption">
+🥵 Breathtaking
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- Lightbox -->
+
+<div id="lightbox">
+
+<span id="close">×</span>
+
+<img id="lightbox-img">
+
+<p id="lightbox-text"></p>
+
+</div>
+
+<style>
+
+/*==========================
+GALLERY
+===========================*/
+
+#gallery{
+
+min-height:100vh;
+
+padding:100px 7%;
+
+}
+
+.gallery-title{
+
+font-size:55px;
+
+text-align:center;
+
+font-family:'Great Vibes',cursive;
+
+margin-bottom:10px;
+
+}
+
+.gallery-subtitle{
+
+text-align:center;
+
+color:#ddd;
+
+margin-bottom:60px;
+
+font-size:20px;
+
+}
+
+.gallery-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:35px;
+
+}
+
+.photo-card{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+padding:15px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+transition:.5s;
+
+box-shadow:0 10px 35px rgba(0,0,0,.3);
+
+transform:rotate(calc(-3deg + 6deg * var(--r)));
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.photo-card:nth-child(odd){
+
+transform:rotate(-4deg);
+
+}
+
+.photo-card:nth-child(even){
+
+transform:rotate(4deg);
+
+}
+
+.photo-card:hover{
+
+transform:scale(1.08) rotate(0);
+
+box-shadow:0 0 40px #8b5cf6;
+
+}
+
+.photo-card img{
+
+width:100%;
+
+height:340px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+}
+
+.caption{
+
+padding-top:18px;
+
+font-size:18px;
+
+text-align:center;
+
+font-weight:600;
+
+color:white;
+
+}
+
+/* Floating Compliments */
+
+.floating-word{
+
+position:fixed;
+
+font-size:24px;
+
+font-weight:bold;
+
+pointer-events:none;
+
+animation:floatWords 8s linear forwards;
+
+color:#fff;
+
+text-shadow:0 0 15px #fff;
+
+z-index:999;
+
+}
+
+@keyframes floatWords{
+
+0%{
+
+opacity:0;
+
+transform:translateY(0) scale(.5);
+
+}
+
+20%{
+
+opacity:1;
+
+}
+
+100%{
+
+opacity:0;
+
+transform:translateY(-220px) scale(1.4);
+
+}
+
+}
+
+/* Lightbox */
+
+#lightbox{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:rgba(0,0,0,.92);
+
+display:none;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+z-index:999999;
+
+}
+
+#lightbox img{
+
+max-width:80%;
+
+max-height:70%;
+
+border-radius:20px;
+
+box-shadow:0 0 40px white;
+
+}
+
+#lightbox-text{
+
+margin-top:30px;
+
+font-size:28px;
+
+font-weight:bold;
+
+color:white;
+
+text-align:center;
+
+}
+
+#close{
+
+position:absolute;
+
+right:40px;
+
+top:20px;
+
+font-size:60px;
+
+cursor:pointer;
+
+color:white;
+
+transition:.4s;
+
+}
+
+#close:hover{
+
+transform:rotate(90deg);
+
+color:#8b5cf6;
+
+}
+
+/* Achievement Popup */
+
+#achievement{
+
+position:fixed;
+
+top:50%;
+
+left:50%;
+
+transform:translate(-50%,-50%);
+
+background:rgba(20,20,40,.95);
+
+padding:40px;
+
+border-radius:25px;
+
+display:none;
+
+text-align:center;
+
+z-index:999999;
+
+box-shadow:0 0 60px #8b5cf6;
+
+}
+
+#achievement h2{
+
+font-size:40px;
+
+margin-bottom:20px;
+
+font-family:Cinzel;
+
+}
+
+#achievement p{
+
+font-size:22px;
+
+line-height:40px;
+
+}
+
+@media(max-width:768px){
+
+.gallery-title{
+
+font-size:40px;
+
+}
+
+.photo-card img{
+
+height:250px;
+
+}
+
+}
+
+</style>
+
+<div id="achievement">
+
+<h2>🏆 Achievement Unlocked</h2>
+
+<p>
+
+Searching...
+
+<br><br>
+
+✔ Found The Most Handsome Birthday Boy ❤️
+
+<br><br>
+
+Rating
+
+★★★★★
+
+<br><br>
+
+100000/10
+
+</p>
+
+</div>
+<!-- ========================================= -->
+<!-- PART 3A - MEMORY CONSTELLATION TIMELINE -->
+<!-- ========================================= -->
+
+<section id="timeline">
+
+<h1 class="timeline-title">✨ I've Written Smtg In The Stars ✨</h1>
+
+<p class="timeline-sub">
+Every glowing star hides a beautiful Msg. Click each one. ❤️
+</p>
+
+<div class="constellation">
+
+<div class="memory-star" data-memory="1" style="top:10%; left:12%;">
+⭐
+</div>
+
+<div class="memory-star" data-memory="2" style="top:25%; left:35%;">
+⭐
+</div>
+
+<div class="memory-star" data-memory="3" style="top:42%; left:18%;">
+⭐
+</div>
+
+<div class="memory-star" data-memory="4" style="top:58%; left:52%;">
+⭐
+</div>
+
+<div class="memory-star" data-memory="5" style="top:22%; left:70%;">
+⭐
+</div>
+
+<div class="memory-star" data-memory="6" style="top:70%; left:78%;">
+⭐
+</div>
+
+<svg class="lines">
+
+<line x1="12%" y1="10%" x2="35%" y2="25%"/>
+
+<line x1="35%" y1="25%" x2="18%" y2="42%"/>
+
+<line x1="18%" y1="42%" x2="52%" y2="58%"/>
+
+<line x1="52%" y1="58%" x2="70%" y2="22%"/>
+
+<line x1="70%" y1="22%" x2="78%" y2="70%"/>
+
+</svg>
+
+</div>
+
+</section>
+
+<!-- MEMORY POPUP -->
+
+<div id="memoryPopup">
+
+<div class="popup-card">
+
+<span id="closeMemory">×</span>
+
+<h2 id="memoryTitle">
+Memory
+</h2>
+
+<p id="memoryText">
+Text
+</p>
+
+</div>
+
+</div>
+
+<style>
+
+/* ==========================================
+TIMELINE
+========================================== */
+
+#timeline{
+
+padding:120px 8%;
+
+min-height:100vh;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.timeline-title{
+
+text-align:center;
+
+font-size:55px;
+
+font-family:'Great Vibes',cursive;
+
+margin-bottom:10px;
+
+}
+
+.timeline-sub{
+
+text-align:center;
+
+font-size:20px;
+
+color:#ddd;
+
+margin-bottom:70px;
+
+}
+
+.constellation{
+
+position:relative;
+
+height:650px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+overflow:hidden;
+
+box-shadow:0 0 40px rgba(255,255,255,.08);
+
+}
+
+/* SVG */
+
+.lines{
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+z-index:1;
+
+}
+
+.lines line{
+
+stroke:white;
+
+stroke-width:2;
+
+opacity:.35;
+
+stroke-dasharray:8;
+
+animation:dashMove 8s linear infinite;
+
+}
+
+@keyframes dashMove{
+
+to{
+
+stroke-dashoffset:-100;
+
+}
+
+}
+
+/* STARS */
+
+.memory-star{
+
+position:absolute;
+
+font-size:42px;
+
+cursor:pointer;
+
+z-index:3;
+
+animation:glow 2.5s infinite alternate;
+
+transition:.4s;
+
+filter:drop-shadow(0 0 15px #fff);
+
+}
+
+.memory-star:hover{
+
+transform:scale(1.45) rotate(20deg);
+
+filter:drop-shadow(0 0 35px gold);
+
+}
+
+@keyframes glow{
+
+from{
+
+opacity:.5;
+
+transform:scale(.9);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1.15);
+
+}
+
+}
+
+/* POPUP */
+
+#memoryPopup{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:rgba(0,0,0,.9);
+
+display:none;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:999999;
+
+}
+
+.popup-card{
+
+width:650px;
+
+max-width:90%;
+
+padding:45px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(25px);
+
+text-align:center;
+
+box-shadow:0 0 60px rgba(139,92,246,.6);
+
+animation:popup .5s;
+
+}
+
+@keyframes popup{
+
+from{
+
+opacity:0;
+
+transform:scale(.7);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+.popup-card h2{
+
+font-size:36px;
+
+margin-bottom:25px;
+
+font-family:'Cinzel',serif;
+
+}
+
+.popup-card p{
+
+font-size:20px;
+
+line-height:36px;
+
+color:#f1f1f1;
+
+white-space:pre-line;
+
+}
+
+#closeMemory{
+
+position:absolute;
+
+margin-left:260px;
+
+font-size:45px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+#closeMemory:hover{
+
+transform:rotate(90deg);
+
+color:#8b5cf6;
+
+}
+
+/* SHOOTING STARS */
+
+.shooting-star{
+
+position:fixed;
+
+top:-50px;
+
+left:-50px;
+
+font-size:18px;
+
+pointer-events:none;
+
+animation:shoot 3s linear forwards;
+
+z-index:999;
+
+}
+
+@keyframes shoot{
+
+0%{
+
+transform:translate(0,0) rotate(45deg);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translate(120vw,120vh) rotate(45deg);
+
+opacity:0;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.timeline-title{
+
+font-size:40px;
+
+}
+
+.memory-star{
+
+font-size:34px;
+
+}
+
+.popup-card{
+
+padding:30px;
+
+}
+
+.popup-card h2{
+
+font-size:28px;
+
+}
+
+.popup-card p{
+
+font-size:17px;
+
+line-height:30px;
+
+}
+
+}
+
+</style>
+
+<!-- ============================ -->
+
+<!-- END PART 3A -->
+
+<!-- ============================ -->
+
+ <!-- =========================================
+     PART 4A - MYSTERY GIFT BOXES
+========================================= -->
+
+<section id="giftSection">
+
+<h1 class="gift-title">
+    🎁 Three Gifts🎁
+</h1>
+
+<p class="gift-subtitle">
+    You'll Love It...
+    <br>
+    Are you Ready? 👀
+</p>
+
+<p class="gift-hint">
+    Pick a gift. You have no idea what's inside. 😌
+</p>
+
+
+<div class="mystery-gifts">
+
+    <!-- =========================
+         GIFT 1
+    ========================== -->
+
+    <div class="mystery-gift" onclick="openGift(1)">
+
+        <div class="gift-box">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-body"></div>
+
+            <div class="gift-ribbon-vertical"></div>
+
+            <div class="gift-ribbon-horizontal"></div>
+
+            <div class="gift-bow">
+
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <div class="gift-number">
+            Gift 1
+        </div>
+
+        <div class="gift-question">
+            😘
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         GIFT 2
+    ========================== -->
+
+    <div class="mystery-gift" onclick="openGift(2)">
+
+        <div class="gift-box">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-body"></div>
+
+            <div class="gift-ribbon-vertical"></div>
+
+            <div class="gift-ribbon-horizontal"></div>
+
+            <div class="gift-bow">
+
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <div class="gift-number">
+            Gift 2
+        </div>
+
+        <div class="gift-question">
+            ❤️
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         GIFT 3
+    ========================== -->
+
+    <div class="mystery-gift" onclick="openGift(3)">
+
+        <div class="gift-box">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-body"></div>
+
+            <div class="gift-ribbon-vertical"></div>
+
+            <div class="gift-ribbon-horizontal"></div>
+
+            <div class="gift-bow">
+
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <div class="gift-number">
+            Gift 3
+        </div>
+
+        <div class="gift-question">
+            🫂
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     GIFT POPUP
+========================== -->
+
+<div id="giftPopup">
+
+    <div class="gift-popup-box">
+
+        <button
+            id="closeGift"
+            onclick="closeGiftPopup()">
+            ×
+        </button>
+
+        <div id="giftContent"></div>
+
+    </div>
+
+</div>
+
+</section>
+
+<style>
+
+/* =========================================
+   MYSTERY GIFT SECTION
+========================================= */
+
+#giftSection{
+
+    min-height:100vh;
+
+    padding:120px 7%;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+
+/* TITLE */
+
+.gift-title{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:58px;
+
+    margin-bottom:15px;
+
+    text-shadow:
+        0 0 15px rgba(255,255,255,.4);
+
+}
+
+
+.gift-subtitle{
+
+    font-size:20px;
+
+    color:#ddd;
+
+    line-height:34px;
+
+}
+
+
+.gift-hint{
+
+    margin-top:20px;
+
+    margin-bottom:70px;
+
+    font-size:17px;
+
+    color:#c4b5fd;
+
+    font-style:italic;
+
+}
+
+
+/* =========================================
+   GIFT CONTAINER
+========================================= */
+
+.mystery-gifts{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    gap:80px;
+
+    flex-wrap:wrap;
+
+}
+
+
+/* =========================================
+   INDIVIDUAL GIFT
+========================================= */
+
+.mystery-gift{
+
+    width:220px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+    position:relative;
+
+}
+
+
+.mystery-gift:hover{
+
+    transform:translateY(-15px);
+
+}
+
+
+/* =========================================
+   GIFT BOX
+========================================= */
+
+.gift-box{
+
+    width:180px;
+
+    height:180px;
+
+    margin:auto;
+
+    position:relative;
+
+    transition:.5s;
+
+}
+
+
+/* BOX BODY */
+
+.gift-body{
+
+    position:absolute;
+
+    width:150px;
+
+    height:110px;
+
+    left:15px;
+
+    bottom:0;
+
+    border-radius:5px;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #7c3aed,
+            #a855f7
+        );
+
+    box-shadow:
+
+        0 15px 35px
+        rgba(0,0,0,.5),
+
+        0 0 25px
+        rgba(168,85,247,.35);
+
+}
+
+
+/* BOX LID */
+
+.gift-lid{
+
+    position:absolute;
+
+    width:170px;
+
+    height:35px;
+
+    left:5px;
+
+    top:38px;
+
+    border-radius:7px;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #9333ea,
+            #c084fc
+        );
+
+    z-index:4;
+
+    box-shadow:
+
+        0 8px 15px
+        rgba(0,0,0,.3);
+
+    transition:.6s;
+
+}
+
+
+/* VERTICAL RIBBON */
+
+.gift-ribbon-vertical{
+
+    position:absolute;
+
+    width:28px;
+
+    height:110px;
+
+    left:76px;
+
+    bottom:0;
+
+    background:#fbbf24;
+
+    z-index:3;
+
+}
+
+
+/* HORIZONTAL RIBBON */
+
+.gift-ribbon-horizontal{
+
+    position:absolute;
+
+    width:170px;
+
+    height:18px;
+
+    left:5px;
+
+    top:47px;
+
+    background:#fbbf24;
+
+    z-index:5;
+
+}
+
+
+/* =========================================
+   BOW
+========================================= */
+
+.gift-bow{
+
+    position:absolute;
+
+    top:8px;
+
+    left:65px;
+
+    width:55px;
+
+    height:40px;
+
+    z-index:8;
+
+}
+
+
+.gift-bow span{
+
+    position:absolute;
+
+    width:32px;
+
+    height:25px;
+
+    background:#fbbf24;
+
+    border-radius:50% 50% 10% 50%;
+
+}
+
+
+.gift-bow span:first-child{
+
+    left:-10px;
+
+    transform:rotate(25deg);
+
+}
+
+
+.gift-bow span:last-child{
+
+    right:-10px;
+
+    transform:rotate(-25deg);
+
+}
+
+
+.gift-bow::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:18px;
+
+    height:18px;
+
+    background:#f59e0b;
+
+    border-radius:50%;
+
+    left:18px;
+
+    top:8px;
+
+}
+
+
+/* =========================================
+   TEXT
+========================================= */
+
+.gift-number{
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+
+.gift-question{
+
+    margin-top:7px;
+
+    font-size:22px;
+
+    letter-spacing:5px;
+
+    color:#c4b5fd;
+
+}
+
+
+/* =========================================
+   HOVER
+========================================= */
+
+.mystery-gift:hover .gift-box{
+
+    transform:
+
+        scale(1.08)
+
+        rotate(-2deg);
+
+}
+
+
+.mystery-gift:hover .gift-lid{
+
+    transform:
+
+        translateY(-15px)
+
+        rotate(-4deg);
+
+}
+
+
+.mystery-gift:hover .gift-bow{
+
+    animation:
+
+        bowShake .5s infinite alternate;
+
+}
+
+
+@keyframes bowShake{
+
+    from{
+
+        transform:rotate(-4deg);
+
+    }
+
+    to{
+
+        transform:rotate(4deg);
+
+    }
+
+}
+
+
+/* =========================================
+   POPUP
+========================================= */
+
+#giftPopup{
+
+    position:fixed;
+
+    inset:0;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+
+        rgba(0,0,0,.88);
+
+    backdrop-filter:blur(12px);
+
+    z-index:999999;
+
+}
+
+
+.gift-popup-box{
+
+    width:650px;
+
+    max-width:90%;
+
+    max-height:85vh;
+
+    overflow:auto;
+
+    padding:50px 40px;
+
+    border-radius:30px;
+
+    text-align:center;
+
+    background:
+
+        rgba(20,20,40,.96);
+
+    border:
+
+        1px solid
+        rgba(255,255,255,.15);
+
+    box-shadow:
+
+        0 0 60px
+        rgba(139,92,246,.6);
+
+    animation:
+
+        giftPopupIn .6s ease;
+
+}
+
+
+@keyframes giftPopupIn{
+
+    from{
+
+        opacity:0;
+
+        transform:
+
+            scale(.5)
+
+            translateY(50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+
+            scale(1)
+
+            translateY(0);
+
+    }
+
+}
+
+
+/* CLOSE */
+
+#closeGift{
+
+    position:absolute;
+
+    top:25px;
+
+    right:30px;
+
+    border:none;
+
+    background:none;
+
+    color:white;
+
+    font-size:40px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+#closeGift:hover{
+
+    transform:rotate(90deg);
+
+    color:#c084fc;
+
+}
+
+
+/* =========================================
+   OPENING ANIMATION
+========================================= */
+
+.mystery-gift.opening .gift-lid{
+
+    transform:
+
+        translateY(-100px)
+
+        rotate(-15deg);
+
+    opacity:0;
+
+}
+
+
+.mystery-gift.opening .gift-bow{
+
+    transform:
+
+        translateY(-100px)
+
+        scale(.5);
+
+    opacity:0;
+
+}
+
+
+.mystery-gift.opening .gift-box{
+
+    animation:
+
+        giftShake .5s;
+
+}
+
+
+@keyframes giftShake{
+
+    0%,100%{
+
+        transform:translateX(0);
+
+    }
+
+    25%{
+
+        transform:translateX(-10px);
+
+    }
+
+    50%{
+
+        transform:translateX(10px);
+
+    }
+
+    75%{
+
+        transform:translateX(-5px);
+
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+    #giftSection{
+
+        padding:90px 5%;
+
+    }
+
+    .gift-title{
+
+        font-size:42px;
+
+    }
+
+    .gift-subtitle{
+
+        font-size:17px;
+
+    }
+
+    .mystery-gifts{
+
+        gap:55px;
+
+    }
+
+    .mystery-gift{
+
+        width:180px;
+
+    }
+
+    .gift-box{
+
+        transform:scale(.85);
+
+    }
+
+}
+</style>
+
+<script>
+
+const text=[
+
+"Initializing Birthday Protocol...",
+
+"Searching...",
+
+"Finding Huchaaa...",
+
+"✔ Found",
+
+"Loading Surprises...",
+
+"Welcome ❤️"
+
+];
+
+let i=0;
+
+let j=0;
+
+const typing=document.getElementById("typing");
+
+function type(){
+
+if(i<text.length){
+
+if(j<text[i].length){
+
+typing.innerHTML+=text[i].charAt(j);
+
+j++;
+
+setTimeout(type,50);
+
+}
+
+else{
+
+typing.innerHTML+="<br>";
+
+i++;
+
+j=0;
+
+setTimeout(type,400);
+
+}
+
+}
+
+}
+
+type();
+
+setTimeout(()=>{
+
+document.querySelector(".enter-btn").style.display="block";
+
+},5200);
+
+function startWebsite(){
+
+document.getElementById("loader").style.display="none";
+
+}
+
+const stars=document.querySelector(".stars");
+
+for(let i=0;i<180;i++){
+
+const s=document.createElement("div");
+
+s.className="star";
+
+s.style.left=Math.random()*100+"%";
+
+s.style.top=Math.random()*100+"%";
+
+const size=Math.random()*3+1;
+
+s.style.width=size+"px";
+
+s.style.height=size+"px";
+
+s.style.animationDuration=Math.random()*3+1+"s";
+
+stars.appendChild(s);
+
+}
+
+function createHeart(){
+
+const h=document.createElement("div");
+
+h.className="heart";
+
+h.innerHTML="❤";
+
+h.style.left=Math.random()*100+"%";
+
+h.style.fontSize=Math.random()*20+18+"px";
+
+document.body.appendChild(h);
+
+setTimeout(()=>{
+
+h.remove();
+
+},9000);
+
+}
+
+setInterval(createHeart,700);
+/* ======================================================
+   PART 2B
+   MAIN CHARACTER GALLERY JAVASCRIPT
+====================================================== */
+
+// Gallery Elements
+
+const cards = document.querySelectorAll(".photo-card");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const lightboxText = document.getElementById("lightbox-text");
+const closeBtn = document.getElementById("close");
+const achievement = document.getElementById("achievement");
+
+// Compliments
+
+const compliments = [
+
+"❤️ Handsome",
+"🔥 Sexy",
+"✨ Lovablee",
+"👑 Huchaaa",
+"😍 Gorgeous",
+"💙 Beautiful Soul",
+"🌸 Too Cute",
+"💖 Favorite Human",
+"⭐ Charming",
+"💫 Amazing"
+
+];
+
+// Track viewed photos
+
+let viewed = [];
+
+let clickCount = 0;
+
+
+// Open Gallery Image
+
+cards.forEach((card,index)=>{
+
+card.addEventListener("click",()=>{
+
+const img = card.querySelector("img");
+
+const text = card.querySelector(".caption").innerText;
+
+lightbox.style.display="flex";
+
+lightboxImg.src=img.src;
+
+lightboxText.innerHTML=text;
+
+
+// Floating compliment
+
+floatingWord();
+
+
+// Track viewed
+
+if(!viewed.includes(index))
+viewed.push(index);
+
+
+// Achievement
+
+if(viewed.length===cards.length){
+
+setTimeout(()=>{
+
+achievement.style.display="block";
+
+confettiRain();
+
+setTimeout(()=>{
+
+achievement.style.display="none";
+
+},4500);
+
+},800);
+
+}
+
+
+// Easter Egg
+
+if(index===0){
+
+clickCount++;
+
+if(clickCount==5){
+
+alert("😂 Achievement Unlocked!\nProfessional Narcissist Detected!");
+
+clickCount=0;
+
+}
+
+}
+
+});
+
+});
+
+
+// Close
+
+closeBtn.onclick=()=>{
+
+lightbox.style.display="none";
+
+};
+
+lightbox.onclick=(e)=>{
+
+if(e.target===lightbox)
+
+lightbox.style.display="none";
+
+};
+
+
+// Floating Words
+
+function floatingWord(){
+
+const word=document.createElement("div");
+
+word.className="floating-word";
+
+word.innerHTML=compliments[Math.floor(Math.random()*compliments.length)];
+
+word.style.left=Math.random()*80+10+"%";
+
+word.style.top=Math.random()*70+15+"%";
+
+document.body.appendChild(word);
+
+setTimeout(()=>{
+
+word.remove();
+
+},8000);
+
+}
+
+
+// Automatic Floating Compliments
+
+setInterval(()=>{
+
+floatingWord();
+
+},2500);
+
+
+
+// Entrance Animation
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.animate([
+
+{
+
+opacity:0,
+
+transform:"translateY(80px) scale(.8)"
+
+},
+
+{
+
+opacity:1,
+
+transform:"translateY(0px) scale(1)"
+
+}
+
+],{
+
+duration:900,
+
+fill:"forwards"
+
+});
+
+}
+
+});
+
+});
+
+cards.forEach(card=>{
+
+card.style.opacity=0;
+
+observer.observe(card);
+
+});
+
+
+
+
+// =======================================
+// SIMPLE CONFETTI
+// =======================================
+
+function confettiRain(){
+
+for(let i=0;i<120;i++){
+
+const conf=document.createElement("div");
+
+conf.style.position="fixed";
+
+conf.style.width="10px";
+
+conf.style.height="10px";
+
+conf.style.left=Math.random()*100+"vw";
+
+conf.style.top="-20px";
+
+conf.style.background=
+
+`hsl(${Math.random()*360},100%,60%)`;
+
+conf.style.zIndex=999999;
+
+conf.style.borderRadius="50%";
+
+document.body.appendChild(conf);
+
+
+conf.animate([
+
+{
+
+transform:"translateY(0px) rotate(0deg)",
+
+opacity:1
+
+},
+
+{
+
+transform:`translateY(${window.innerHeight+100}px)
+rotate(${Math.random()*720}deg)`,
+
+opacity:0
+
+}
+
+],{
+
+duration:3500+Math.random()*2000,
+
+easing:"linear"
+
+});
+
+
+setTimeout(()=>{
+
+conf.remove();
+
+},5500);
+
+}
+
+}
+
+
+
+// =======================================
+// Mouse Sparkles
+// =======================================
+
+document.addEventListener("mousemove",(e)=>{
+
+const s=document.createElement("div");
+
+s.style.position="fixed";
+
+s.style.left=e.clientX+"px";
+
+s.style.top=e.clientY+"px";
+
+s.style.width="5px";
+
+s.style.height="5px";
+
+s.style.background="white";
+
+s.style.borderRadius="50%";
+
+s.style.pointerEvents="none";
+
+s.style.boxShadow="0 0 15px white";
+
+document.body.appendChild(s);
+
+s.animate([
+
+{
+
+transform:"scale(1)",
+
+opacity:1
+
+},
+
+{
+
+transform:"translateY(-30px) scale(0)",
+
+opacity:0
+
+}
+
+],{
+
+duration:600
+
+});
+
+setTimeout(()=>{
+
+s.remove();
+
+},600);
+
+});
+
+
+
+
+// =======================================
+// Random Sparkles
+// =======================================
+
+setInterval(()=>{
+
+const star=document.createElement("div");
+
+star.innerHTML="✨";
+
+star.style.position="fixed";
+
+star.style.left=Math.random()*100+"vw";
+
+star.style.top=Math.random()*100+"vh";
+
+star.style.fontSize="20px";
+
+star.style.pointerEvents="none";
+
+star.style.opacity=".8";
+
+document.body.appendChild(star);
+
+star.animate([
+
+{
+
+opacity:0,
+
+transform:"scale(.5)"
+
+},
+
+{
+
+opacity:1,
+
+transform:"scale(1.3)"
+
+},
+
+{
+
+opacity:0,
+
+transform:"scale(.5)"
+
+}
+
+],{
+
+duration:2500
+
+});
+
+setTimeout(()=>{
+
+star.remove();
+
+},2500);
+
+},1200);
+/* ===================================================
+   PART 3B-1 (FIXED)
+   MEMORY TIMELINE
+===================================================*/
+
+// Memory Data
+
+const memoryData = [
+
+{
+title:"🌸 Last Birthday",
+text:"You were just titled as bestfrnd \n Now u r real best est est frnd of my entire life and I never thought u would become this close and imp person😘"
+},
+
+{
+title:"😂 Huchaaa",
+text:"u know wt?\n With u evrthng feels rytt and I found a version of me i never knew existed"
+},
+
+{
+title:"😎 why do I love u",
+text:"'I could give u hundred reasons but honestly...'\n you being you is enough🥰"
+},
+
+{
+title:"🌟 Every Moment",
+text:"Every conversation.\nEvery stupid joke.\nEvery late-night chat.\nEvery memory became special because you were there."
+},
+
+{
+title:"❤️ Thank You",
+text:"Thank you for always being there.\nThank you for Everthing\nLife is better with a best friend like you."
+},
+
+{
+title:"🎂 Happy Birthday",
+text:"Today is YOUR day.\nI hope every dream of yours comes true.\nHappy Birthday ❤️"
+}
+
+];
+
+
+// Get Elements
+
+const memoryStars=document.querySelectorAll(".memory-star");
+
+const memoryPopup=document.getElementById("memoryPopup");
+
+const memoryTitle=document.getElementById("memoryTitle");
+
+const memoryText=document.getElementById("memoryText");
+
+const closeMemoryBtn=document.getElementById("closeMemory");
+
+let unlocked=[];
+
+
+// Typewriter
+
+function showMemory(text){
+
+memoryText.innerHTML="";
+
+let i=0;
+
+const speed=25;
+
+const timer=setInterval(()=>{
+
+memoryText.innerHTML+=text.charAt(i);
+
+i++;
+
+if(i>=text.length){
+
+clearInterval(timer);
+
+}
+
+},speed);
+
+}
+
+
+
+// Open Memory
+
+memoryStars.forEach((star,index)=>{
+
+star.addEventListener("click",()=>{
+
+memoryPopup.style.display="flex";
+
+memoryTitle.innerHTML=memoryData[index].title;
+
+showMemory(memoryData[index].text);
+
+
+// Glow
+
+star.style.color="#FFD700";
+
+star.style.filter="drop-shadow(0 0 25px gold)";
+
+
+// Unlock
+
+if(!unlocked.includes(index)){
+
+unlocked.push(index);
+
+}
+
+
+// Open all surprise
+
+if(unlocked.length===memoryStars.length){
+
+setTimeout(()=>{
+
+alert("More beautiful surprises are waiting below ❤️");
+
+},800);
+
+}
+
+});
+
+});
+
+
+
+
+// Close Button
+
+closeMemoryBtn.onclick=function(){
+
+memoryPopup.style.display="none";
+
+}
+
+
+// Click Outside
+
+window.addEventListener("click",function(e){
+
+if(e.target===memoryPopup){
+
+memoryPopup.style.display="none";
+
+}
+
+});
+
+
+
+
+// Star Pulse
+
+setInterval(()=>{
+
+memoryStars.forEach(star=>{
+
+star.animate([
+
+{
+
+transform:"scale(1)"
+
+},
+
+{
+
+transform:"scale(1.25)"
+
+},
+
+{
+
+transform:"scale(1)"
+
+}
+
+],{
+
+duration:1800
+
+});
+
+});
+
+},4000);
+/* ===========================================
+   PART 3B-2 (OPTIMIZED)
+=========================================== */
+
+// Progress Box
+
+const progress = document.createElement("div");
+
+progress.id="progress";
+
+progress.style.cssText=`
+position:fixed;
+right:20px;
+bottom:20px;
+padding:12px 20px;
+background:rgba(0,0,0,.6);
+backdrop-filter:blur(12px);
+border-radius:15px;
+font-family:Poppins;
+color:white;
+z-index:9999;
+`;
+
+document.body.appendChild(progress);
+
+function updateProgress(){
+
+progress.innerHTML=
+`⭐ Memories ${unlocked.length}/${memoryStars.length}`;
+
+}
+
+updateProgress();
+
+
+// Update counter
+
+memoryStars.forEach(star=>{
+
+star.addEventListener("click",()=>{
+
+updateProgress();
+
+});
+
+});
+
+
+
+// =======================================
+// Simple Sparkle
+// =======================================
+
+function sparkle(x,y){
+
+for(let i=0;i<10;i++){
+
+const s=document.createElement("div");
+
+s.innerHTML="✨";
+
+s.style.position="fixed";
+
+s.style.left=x+"px";
+
+s.style.top=y+"px";
+
+s.style.pointerEvents="none";
+
+s.style.zIndex=99999;
+
+document.body.appendChild(s);
+
+const dx=(Math.random()-0.5)*120;
+
+const dy=(Math.random()-0.5)*120;
+
+s.animate([
+
+{
+
+transform:"translate(0,0) scale(.5)",
+
+opacity:1
+
+},
+
+{
+
+transform:`translate(${dx}px,${dy}px) scale(1.2)`,
+
+opacity:0
+
+}
+
+],{
+
+duration:700
+
+});
+
+setTimeout(()=>{
+
+s.remove();
+
+},700);
+
+}
+
+}
+
+
+
+memoryStars.forEach(star=>{
+
+star.addEventListener("click",(e)=>{
+
+sparkle(e.clientX,e.clientY);
+
+});
+
+});
+
+
+
+// =======================================
+// Final Popup
+// =======================================
+
+let finished=false;
+
+function finalPopup(){
+
+if(finished) return;
+
+if(unlocked.length!==memoryStars.length) return;
+
+finished=true;
+
+const box=document.createElement("div");
+
+box.style.cssText=`
+
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+padding:40px;
+width:500px;
+max-width:90%;
+background:rgba(20,20,40,.95);
+border-radius:25px;
+text-align:center;
+z-index:999999;
+box-shadow:0 0 50px #8b5cf6;
+
+`;
+
+box.innerHTML=`
+
+<h2>✨ Just for U✨</h2>
+
+<p style="margin:20px 0;line-height:32px;">
+
+My Most Most Most Special Person
+        forever🫂❤️
+
+Now...
+ Birthday gifts are waiting below ❤️
+
+</p>
+
+<button id="nextGift"
+
+style="
+padding:12px 30px;
+border:none;
+border-radius:30px;
+background:#8b5cf6;
+color:white;
+cursor:pointer;
+">
+
+Continue →
+
+</button>
+
+`;
+
+document.body.appendChild(box);
+
+document
+.getElementById("nextGift")
+.onclick=function(){
+
+box.remove();
+
+const gift=document.getElementById("giftSection");
+
+if(gift){
+
+gift.scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+}
+
+};
+
+}
+
+
+
+memoryStars.forEach(star=>{
+
+star.addEventListener("click",()=>{
+
+setTimeout(finalPopup,300);
+
+});
+
+});
+/* =========================================================
+   💝 PART 4B — MYSTERY GIFTS
+   =========================================================
+
+   🎵 GIFT 1 → MUSIC
+   💌 GIFT 2 → LETTER
+   🤗 GIFT 3 → VIRTUAL HUG VIDEO
+
+   VIDEO PLACEHOLDER:
+   YOUR_HUG_VIDEO.mp4
+
+   Put your video in the same folder as index.html.
+
+   IMPORTANT:
+   Paste this code INSIDE your existing <script> tag.
+   Do NOT add another <script> tag.
+========================================================= */
+
+
+/* =========================================================
+   PART 4B — CSS
+========================================================= */
+
+const part4bStyle = document.createElement("style");
+
+part4bStyle.innerHTML = `
+
+/* =====================================================
+   GIFT POPUP
+===================================================== */
+
+#giftPopup{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:99999;
+
+    display:none;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:20px;
+
+    background:
+        rgba(0,0,0,.80);
+
+    backdrop-filter:
+        blur(12px);
+
+}
+
+
+/* =====================================================
+   GIFT CONTENT
+===================================================== */
+
+#giftContent{
+
+    position:relative;
+
+    width:min(650px,95vw);
+
+    max-height:88vh;
+
+    overflow-y:auto;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            rgba(25,18,45,.98),
+            rgba(45,20,65,.98)
+        );
+
+    border:
+        1px solid
+        rgba(255,255,255,.15);
+
+    box-shadow:
+
+        0 30px 100px
+        rgba(0,0,0,.65);
+
+    color:white;
+
+    animation:
+        giftPopupIn
+        .5s
+        ease;
+
+}
+
+
+@keyframes giftPopupIn{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            scale(.75)
+            translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            scale(1)
+            translateY(0);
+
+    }
+
+}
+
+
+/* =====================================================
+   GIFT REVEAL
+===================================================== */
+
+.gift-reveal{
+
+    text-align:center;
+
+    animation:
+        giftReveal
+        .6s
+        ease;
+
+}
+
+
+@keyframes giftReveal{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+
+/* =====================================================
+   ICON
+===================================================== */
+
+.reveal-icon{
+
+    font-size:65px;
+
+    margin-bottom:12px;
+
+    animation:
+        iconFloat
+        2s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes iconFloat{
+
+    0%,100%{
+
+        transform:
+            translateY(0);
+
+    }
+
+    50%{
+
+        transform:
+            translateY(-9px);
+
+    }
+
+}
+
+
+/* =====================================================
+   HEADINGS
+===================================================== */
+
+.gift-reveal h2{
+
+    margin:
+        10px 0 18px;
+
+    font-family:
+        'Cinzel',
+        Georgia,
+        serif;
+
+    font-size:30px;
+
+}
+
+
+.gift-reveal p{
+
+    color:#ddd;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   🎵 GIFT 1 — MUSIC
+===================================================== */
+
+.birthday-audio{
+
+    width:100%;
+
+    margin-top:25px;
+
+}
+
+
+.music-note{
+
+    margin-top:15px;
+
+    color:#c4b5fd !important;
+
+    font-size:14px;
+
+}
+
+
+/* =====================================================
+   💌 GIFT 2 — LETTER
+===================================================== */
+
+.letter-paper{
+
+    margin-top:25px;
+
+    padding:28px;
+
+    max-height:430px;
+
+    overflow-y:auto;
+
+    text-align:left;
+
+    border-radius:15px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #fff,
+            #f3e8ff
+        );
+
+    color:#302040;
+
+    box-shadow:
+
+        0 15px 45px
+        rgba(0,0,0,.4);
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    line-height:1.8;
+
+}
+
+
+#letterText{
+
+    margin:0;
+
+    white-space:pre-line;
+
+    color:#302040;
+
+}
+
+
+/* =====================================================
+   🤗 GIFT 3 — VIRTUAL HUG
+===================================================== */
+
+.hug-gift{
+
+    text-align:center;
+
+}
+
+
+/* =====================================================
+   VIDEO FRAME
+===================================================== */
+
+.hug-video-container{
+
+    position:relative;
+
+    width:360px;
+
+    height:300px;
+
+    margin:
+        0 auto 15px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+/* =====================================================
+   VIDEO GLOW
+===================================================== */
+
+.hug-video-glow{
+
+    position:absolute;
+
+    width:270px;
+
+    height:240px;
+
+    border-radius:50%;
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(236,72,153,.65),
+            rgba(139,92,246,.35),
+            transparent 70%
+        );
+
+    filter:blur(25px);
+
+    animation:
+
+        videoGlow
+        3s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes videoGlow{
+
+    0%,100%{
+
+        transform:
+            scale(.9);
+
+        opacity:.5;
+
+    }
+
+    50%{
+
+        transform:
+            scale(1.15);
+
+        opacity:.9;
+
+    }
+
+}
+
+
+/* =====================================================
+   🎬 VIDEO PLACEHOLDER
+===================================================== */
+
+.hug-video{
+
+    position:relative;
+
+    z-index:2;
+
+    width:320px;
+
+    height:260px;
+
+    object-fit:contain;
+
+    border-radius:25px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            rgba(236,72,153,.15),
+            rgba(139,92,246,.15)
+        );
+
+    border:
+
+        2px solid
+        rgba(255,255,255,.15);
+
+    box-shadow:
+
+        0 15px 45px
+        rgba(0,0,0,.5);
+
+    animation:
+
+        videoFloat
+        3s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes videoFloat{
+
+    0%,100%{
+
+        transform:
+            translateY(0);
+
+    }
+
+    50%{
+
+        transform:
+            translateY(-8px);
+
+    }
+
+}
+
+
+/* =====================================================
+   VIDEO HOVER
+===================================================== */
+
+.hug-video:hover{
+
+    transform:
+        scale(1.03);
+
+}
+
+
+/* =====================================================
+   HUG TEXT
+===================================================== */
+
+.hug-intro{
+
+    color:#ddd;
+
+    line-height:30px;
+
+    margin-top:10px;
+
+}
+
+
+/* =====================================================
+   VIDEO LABEL
+===================================================== */
+
+.video-placeholder-text{
+
+    position:absolute;
+
+    z-index:1;
+
+    width:280px;
+
+    text-align:center;
+
+    color:#c4b5fd;
+
+    font-size:15px;
+
+    pointer-events:none;
+
+}
+
+
+.video-placeholder-icon{
+
+    display:block;
+
+    font-size:55px;
+
+    margin-bottom:10px;
+
+}
+
+
+/* =====================================================
+   FLOATING HEARTS AROUND VIDEO
+===================================================== */
+
+.hug-floating-heart{
+
+    position:absolute;
+
+    pointer-events:none;
+
+    z-index:10;
+
+    font-size:20px;
+
+    animation:
+
+        gentleHeart
+        3s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes gentleHeart{
+
+    0%,100%{
+
+        transform:
+            translateY(0)
+            scale(.9);
+
+        opacity:.45;
+
+    }
+
+    50%{
+
+        transform:
+            translateY(-12px)
+            scale(1.1);
+
+        opacity:1;
+
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px){
+
+    #giftContent{
+
+        padding:22px;
+
+    }
+
+
+    .hug-video-container{
+
+        width:290px;
+
+        height:250px;
+
+    }
+
+
+    .hug-video{
+
+        width:260px;
+
+        height:220px;
+
+    }
+
+
+    .gift-reveal h2{
+
+        font-size:24px;
+
+    }
+
+
+    .letter-paper{
+
+        padding:20px;
+
+        font-size:15px;
+
+    }
+
+}
+
+`;
+
+document.head.appendChild(part4bStyle);
+
+
+/* =========================================================
+   💌 YOUR PERSONAL LETTER
+========================================================= */
+
+const birthdayLetter = `
+
+Manjyaa❤️
+
+Happy Birthday Huchaa 😂
+
+ummm en heliiii........
+en helidru kamineeeeeee....
+still heltini kelu.....
+I Love uuuuu...... Moreeee and Moreee.....beyond evrythg...
+ummmm.. why I love u? thr are so many reasons mainly I love myself whn im wdu like I'll be so excited to talk... Tht smile on my face while talking wdu...its totally different and I  love tht... I just love u and I just keep loving no matter wt... srsly im totally mentally fully obbessed wdu..... now its ur fault its on u now idk...btw im easy to handle no woriesss...
+I just wanna Thankyouuuu..... thanku for coming into my lifeeee making it sooo sooo sooo fantasticccc.... making it so easy...making it so joyfull..and giving me best moments or days of my life.. u know im not tht expressive i'm not getting words to express.... thr r still so many things tht I want to thank.... Thnku for Evrthng.....
+U r someone tht I can talk to abt anything..someone who understands, someone who makes me laugh whn I don't even feel like smiling..ur presence itself is enough automatically my mood gets better... u dk how precious u r to mee...
+I hope u achive every dream u have..u shuld get evry happiness, peace and love tht u deserve... u r best nd I'll always be thr and support u...
+keep working hard, keep growing, keep being the person u r nd never forget how capble u r...
+ummmmm life is going to change will have different responsblities , maybe things won't always be the same.. but no matter where life takes us, u will always have a very special place in my heart....idk wt i did to deserve u..... Im so Greatful and thankfull to have a person like u....
+
+Lots of Love
+-Yours Pavi🤎
+`;
+
+
+/* =========================================================
+   🎁 GIFT CONTENT
+========================================================= */
+
+const giftMessages = {
+
+
+    /* =====================================================
+       🎵 GIFT 1 — MUSIC
+    ===================================================== */
+
+    1: {
+
+        content: `
+
+        <div class="gift-reveal">
+
+            <div class="reveal-icon">
+                🎵
+            </div>
+
+            <h2>
+                A Little Something For You
+            </h2>
+
+            <p>
+
+                Sorry I didn't sing
+
+                Dedicating this song to u 👀
+
+                <br><br>
+
+                Put on your headphones
+                and listen to this one. ❤️
+
+            </p>
+
+            <audio
+                class="birthday-audio"
+                controls
+            >
+
+                <source
+                    src="Music.mp3"
+                    type="audio/mpeg"
+                >
+
+                Your browser does not support
+                audio playback.
+
+            </audio>
+
+            <p class="music-note">
+
+                🎧 Headphones recommended.
+
+            </p>
+
+        </div>
+
+        `
+
+    },
+
+
+    /* =====================================================
+       💌 GIFT 2 — LETTER
+    ===================================================== */
+
+    2: {
+
+        content: `
+
+        <div class="gift-reveal">
+
+            <div class="reveal-icon">
+                💌
+            </div>
+
+            <h2>
+                Something I Wanted To Tell You
+            </h2>
+
+            <p>
+
+                U know Already
+
+                <br>
+
+                still I'm writing coz u shuld know how much u mean to me😁
+
+            </p>
+
+            <div class="letter-paper">
+
+                <p id="letterText"></p>
+
+            </div>
+
+        </div>
+
+        `
+
+    },
+
+
+    /* =====================================================
+       🤗 GIFT 3 — VIRTUAL HUG
+    ===================================================== */
+
+    3: {
+
+        content: `
+
+        <div class="gift-reveal hug-gift">
+
+
+            <div
+                class="hug-video-container"
+                id="hugVideoContainer"
+            >
+
+
+                <div
+                    class="hug-video-glow"
+                ></div>
+
+
+                <!--
+                    🎬 VIDEO PLACEHOLDER
+
+                    Replace YOUR_HUG_VIDEO.mp4
+                    with your own video filename.
+
+                    Example:
+
+                    <source
+                        src="my-hug-video.mp4"
+                        type="video/mp4"
+                    >
+                -->
+
+
+                <video
+                    id="hugVideo"
+                    class="hug-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                >
+
+                    <source
+                        src="hugging video.mp4"
+                        type="video/mp4"
+                    >
+
+                </video>
+
+
+                <!--
+                    This text is only a reminder
+                    for YOU while editing.
+
+                    Once you add your video,
+                    you can delete this section.
+                -->
+
+                <div
+                    class="video-placeholder-text"
+                >
+
+                    <span
+                        class="video-placeholder-icon"
+                    >
+                        🤗
+                    </span>
+
+                    Add your hugging video here
+
+                </div>
+
+
+            </div>
+
+
+            <h2>
+                A Virtual Hug 🤗
+            </h2>
+
+
+            <p class="hug-intro">
+
+                Sometimes words aren't enough...
+
+                <br>
+
+                So here's a little hug
+                from me to you. ❤️
+
+                <br>
+
+             Your birthday hug. 🫂
+
+            </p>
+
+
+        </div>
+
+        `
+
+    }
+
+};
+
+
+/* =========================================================
+   🎁 OPEN GIFT
+========================================================= */
+
+function openGift(number){
+
+    const gifts =
+        document.querySelectorAll(
+            ".mystery-gift"
+        );
+
+
+    const selectedGift =
+        gifts[number - 1];
+
+
+    if(!selectedGift){
+
+        console.error(
+            "Gift not found:",
+            number
+        );
+
+        return;
+
+    }
+
+
+    const popup =
+        document.getElementById(
+            "giftPopup"
+        );
+
+
+    const content =
+        document.getElementById(
+            "giftContent"
+        );
+
+
+    if(!popup || !content){
+
+        console.error(
+            "giftPopup or giftContent is missing."
+        );
+
+        return;
+
+    }
+
+
+    /* =====================================================
+       OPENING ANIMATION
+    ===================================================== */
+
+    selectedGift.classList.add(
+        "opening"
+    );
+
+
+    /* =====================================================
+       SHOW POPUP
+    ===================================================== */
+
+    popup.style.display="flex";
+
+
+    content.innerHTML = `
+
+        <div class="gift-reveal">
+
+            <div class="reveal-icon">
+                ✨
+            </div>
+
+            <h2>
+                Gift Unlocked!
+            </h2>
+
+            <p>
+
+                Hmm...
+
+                I wonder what's inside. 👀
+
+            </p>
+
+        </div>
+
+    `;
+
+
+    /* =====================================================
+       SHOW ACTUAL GIFT
+    ===================================================== */
+
+    setTimeout(function(){
+
+        content.innerHTML =
+            giftMessages[number].content;
+
+
+        /* =================================================
+           MUSIC
+        ================================================= */
+
+        if(number === 1){
+
+            const audio =
+                document.querySelector(
+                    ".birthday-audio"
+                );
+
+
+            if(audio){
+
+                audio.volume=.65;
+
+            }
+
+        }
+
+
+        /* =================================================
+           LETTER
+        ================================================= */
+
+        if(number === 2){
+
+            startLetter();
+
+        }
+
+
+        /* =================================================
+           VIDEO
+        ================================================= */
+
+        if(number === 3){
+
+            const video =
+                document.getElementById(
+                    "hugVideo"
+                );
+
+
+            if(video){
+
+                video.play().catch(
+                    function(){
+
+                        /*
+                           Browser may block
+                           autoplay.
+
+                           User can simply click
+                           the video to play it.
+                        */
+
+                    }
+                );
+
+            }
+
+        }
+
+
+    },700);
+
+}
+
+
+/* =========================================================
+   💌 LETTER TYPEWRITER
+========================================================= */
+
+function startLetter(){
+
+    const textElement =
+        document.getElementById(
+            "letterText"
+        );
+
+
+    if(!textElement){
+
+        return;
+
+    }
+
+
+    textElement.innerHTML="";
+
+
+    let position=0;
+
+
+    const speed=20;
+
+
+    const timer =
+        setInterval(function(){
+
+            textElement.innerHTML +=
+                birthdayLetter.charAt(
+                    position
+                );
+
+
+            position++;
+
+
+            if(
+                position >=
+                birthdayLetter.length
+            ){
+
+                clearInterval(
+                    timer
+                );
+
+            }
+
+        },speed);
+
+}
+
+
+/* =========================================================
+   ❌ CLOSE GIFT
+========================================================= */
+
+function closeGiftPopup(){
+
+    const popup =
+        document.getElementById(
+            "giftPopup"
+        );
+
+
+    const content =
+        document.getElementById(
+            "giftContent"
+        );
+
+
+    if(!popup){
+
+        return;
+
+    }
+
+
+    /* Stop video */
+
+    const video =
+        document.getElementById(
+            "hugVideo"
+        );
+
+
+    if(video){
+
+        video.pause();
+
+        video.currentTime=0;
+
+    }
+
+
+    /* Stop audio */
+
+    const audio =
+        document.querySelector(
+            ".birthday-audio"
+        );
+
+
+    if(audio){
+
+        audio.pause();
+
+        audio.currentTime=0;
+
+    }
+
+
+    /* Hide popup */
+
+    popup.style.display="none";
+
+
+    if(content){
+
+        content.innerHTML="";
+
+    }
+
+
+    /* Reset gift boxes */
+
+    document
+        .querySelectorAll(
+            ".mystery-gift"
+        )
+        .forEach(function(gift){
+
+            gift.classList.remove(
+                "opening"
+            );
+
+        });
+
+}
+
+
+/* =========================================================
+   CLICK OUTSIDE TO CLOSE
+========================================================= */
+
+const giftPopupElement =
+    document.getElementById(
+        "giftPopup"
+    );
+
+
+if(giftPopupElement){
+
+    giftPopupElement.addEventListener(
+        "click",
+        function(event){
+
+            if(
+                event.target ===
+                giftPopupElement
+            ){
+
+                closeGiftPopup();
+
+            }
+
+        }
+    );
+
+}
+
+
+/* =========================================================
+   ESC KEY CLOSE
+========================================================= */
+
+document.addEventListener(
+    "keydown",
+    function(event){
+
+        if(
+            event.key ===
+            "Escape"
+        ){
+
+            closeGiftPopup();
+
+        }
+
+    }
+);
+
+
+/* =========================================================
+   ❤️ PART 4B COMPLETE
+========================================================= */
+/* =========================================================
+   🌙 PART 5 — FINAL BIRTHDAY SURPRISE
+   ========================================================= */
+
+
+/* =========================================================
+   FINAL SURPRISE STYLE
+========================================================= */
+
+const part5Style = document.createElement("style");
+
+part5Style.innerHTML = `
+
+/* =====================================================
+   FINAL SECTION
+===================================================== */
+
+#finalSurprise{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:100000;
+
+    display:none;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:25px;
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            rgba(88,28,135,.95),
+            rgba(15,10,30,.98)
+        );
+
+    overflow:hidden;
+
+}
+
+
+.final-content{
+
+    position:relative;
+
+    z-index:5;
+
+    max-width:700px;
+
+    animation:
+        finalAppear
+        1.2s
+        ease;
+
+}
+
+
+@keyframes finalAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            scale(.7)
+            translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            scale(1)
+            translateY(0);
+
+    }
+
+}
+
+
+.final-star{
+
+    font-size:65px;
+
+    margin-bottom:20px;
+
+    animation:
+        finalStar
+        2s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes finalStar{
+
+    0%,100%{
+
+        transform:
+            scale(1)
+            rotate(0deg);
+
+    }
+
+    50%{
+
+        transform:
+            scale(1.2)
+            rotate(8deg);
+
+    }
+
+}
+
+
+.final-content h1{
+
+    font-family:
+        'Cinzel',
+        Georgia,
+        serif;
+
+    font-size:
+        clamp(35px,7vw,70px);
+
+    margin:
+        10px 0 20px;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #f9a8d4,
+            #c4b5fd,
+            #fbcfe8
+        );
+
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    color:transparent;
+
+}
+
+
+.final-content p{
+
+    color:#eee;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+
+.final-highlight{
+
+    margin-top:25px;
+
+    color:#f9a8d4 !important;
+
+    font-size:22px !important;
+
+    font-weight:600;
+
+}
+
+
+/* =====================================================
+   FINAL BUTTON
+===================================================== */
+
+.final-close-button{
+
+    margin-top:30px;
+
+    padding:
+        13px 30px;
+
+    border:
+
+        1px solid
+        rgba(255,255,255,.2);
+
+    border-radius:40px;
+
+    background:
+        rgba(255,255,255,.08);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+
+.final-close-button:hover{
+
+    background:
+        rgba(255,255,255,.16);
+
+    transform:
+        translateY(-3px);
+
+}
+
+
+/* =====================================================
+   FINAL FLOATING HEARTS
+===================================================== */
+
+.final-heart{
+
+    position:absolute;
+
+    bottom:-50px;
+
+    font-size:
+        var(--size);
+
+    opacity:0;
+
+    animation:
+
+        finalHeartFloat
+        var(--duration)
+        var(--delay)
+        linear
+        infinite;
+
+}
+
+
+@keyframes finalHeartFloat{
+
+    0%{
+
+        transform:
+            translateY(0)
+            translateX(0)
+            rotate(0deg);
+
+        opacity:0;
+
+    }
+
+    10%{
+
+        opacity:.8;
+
+    }
+
+    90%{
+
+        opacity:.7;
+
+    }
+
+    100%{
+
+        transform:
+            translateY(-110vh)
+            translateX(var(--drift))
+            rotate(360deg);
+
+        opacity:0;
+
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px){
+
+    .final-content{
+
+        padding:
+            0 10px;
+
+    }
+
+
+    .final-content p{
+
+        font-size:16px;
+
+    }
+
+
+    .final-highlight{
+
+        font-size:19px !important;
+
+    }
+
+}
+
+`;
+
+document.head.appendChild(part5Style);
+
+
+/* =========================================================
+   CREATE FINAL SURPRISE
+========================================================= */
+
+function createFinalSurprise(){
+
+    /* Prevent duplicates */
+
+    if(
+        document.getElementById(
+            "finalSurprise"
+        )
+    ){
+
+        return;
+
+    }
+
+
+    const finalScreen =
+        document.createElement(
+            "div"
+        );
+
+
+    finalScreen.id =
+        "finalSurprise";
+
+
+    finalScreen.innerHTML = `
+
+        <div class="final-content">
+
+            <div class="final-star">
+                ✨
+            </div>
+
+            <h1>
+                Happy Birthday ❤️
+            </h1>
+
+            <p>
+
+                And that's the end
+                of your little surprise...
+
+                <br>
+
+                Or maybe...
+
+                <br>
+
+                just the beginning
+                of another year
+                full of memories. ✨
+
+            </p>
+
+            <p class="final-highlight">
+
+                Stay crazy.
+
+                Stay exactly who you are. ❤️
+
+            </p>
+
+            <button
+                class="final-close-button"
+                onclick="closeFinalSurprise()"
+            >
+
+                ❤️ Keep This Memory
+
+            </button>
+
+        </div>
+
+    `;
+
+
+    document.body.appendChild(
+        finalScreen
+    );
+
+
+    createFinalHearts();
+
+}
+
+
+/* =========================================================
+   CREATE FLOATING HEARTS
+========================================================= */
+
+function createFinalHearts(){
+
+    const finalScreen =
+        document.getElementById(
+            "finalSurprise"
+        );
+
+
+    if(!finalScreen){
+
+        return;
+
+    }
+
+
+    const hearts=[
+
+        "❤️",
+        "💕",
+        "💗",
+        "💖",
+        "💜",
+        "✨",
+        "🌸"
+
+    ];
+
+
+    for(
+        let i=0;
+        i<28;
+        i++
+    ){
+
+        const heart =
+            document.createElement(
+                "span"
+            );
+
+
+        heart.className=
+            "final-heart";
+
+
+        heart.innerHTML =
+            hearts[
+                Math.floor(
+                    Math.random() *
+                    hearts.length
+                )
+            ];
+
+
+        heart.style.left =
+            Math.random()*100 +
+            "%";
+
+
+        heart.style.setProperty(
+            "--size",
+            (
+                Math.random()*20+14
+            ) +
+            "px"
+        );
+
+
+        heart.style.setProperty(
+            "--duration",
+            (
+                Math.random()*6+7
+            ) +
+            "s"
+        );
+
+
+        heart.style.setProperty(
+            "--delay",
+            (
+                Math.random()*8
+            ) +
+            "s"
+        );
+
+
+        heart.style.setProperty(
+            "--drift",
+            (
+                Math.random()*180-90
+            ) +
+            "px"
+        );
+
+
+        finalScreen.appendChild(
+            heart
+        );
+
+    }
+
+}
+
+
+/* =========================================================
+   SHOW FINAL SURPRISE
+========================================================= */
+
+function showFinalSurprise(){
+
+    createFinalSurprise();
+
+
+    const finalScreen =
+        document.getElementById(
+            "finalSurprise"
+        );
+
+
+    if(!finalScreen){
+
+        return;
+
+    }
+
+
+    finalScreen.style.display=
+        "flex";
+
+
+    document.body.style.overflow=
+        "hidden";
+
+}
+
+
+/* =========================================================
+   CLOSE FINAL SURPRISE
+========================================================= */
+
+function closeFinalSurprise(){
+
+    const finalScreen =
+        document.getElementById(
+            "finalSurprise"
+        );
+
+
+    if(!finalScreen){
+
+        return;
+
+    }
+
+
+    finalScreen.style.display=
+        "none";
+
+
+    document.body.style.overflow=
+        "";
+
+}
+
+
+/* =========================================================
+   OPTIONAL:
+   CALL THIS FROM ANY BUTTON
+
+   Example:
+
+   onclick="showFinalSurprise()"
+
+========================================================= */
+
+
+/* =========================================================
+   ESCAPE KEY
+========================================================= */
+
+document.addEventListener(
+    "keydown",
+    function(event){
+
+        if(
+            event.key ===
+            "Escape"
+        ){
+
+            closeFinalSurprise();
+
+        }
+
+    }
+);
+
+
+/* =========================================================
+   🌙 PART 5 COMPLETE
+========================================================= */
+/* =========================================================
+   ❤️ PART 6 — FINAL GIFT CONNECTION + PROPER ENDING
+========================================================= */
+
+
+/* =========================================================
+   FINAL ENDING CSS
+========================================================= */
+
+const part6Style = document.createElement("style");
+
+part6Style.innerHTML = `
+
+/* =====================================================
+   GIFT ACTION AREA
+===================================================== */
+
+.gift-action-area{
+
+    margin-top:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+
+/* =====================================================
+   CLOSE GIFT BUTTON
+===================================================== */
+
+.gift-close-button{
+
+    padding:
+        11px 25px;
+
+    border:
+        1px solid
+        rgba(255,255,255,.25);
+
+    border-radius:30px;
+
+    background:
+        rgba(255,255,255,.08);
+
+    color:white;
+
+    font-size:14px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.gift-close-button:hover{
+
+    background:
+        rgba(255,255,255,.18);
+
+    transform:
+        translateY(-2px);
+
+}
+
+
+/* =====================================================
+   FINAL SURPRISE BUTTON
+===================================================== */
+
+.final-surprise-button{
+
+    padding:
+        15px 32px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #ec4899,
+            #8b5cf6
+        );
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    box-shadow:
+
+        0 10px 35px
+        rgba(139,92,246,.45);
+
+    transition:.35s;
+
+    animation:
+        finalButtonPulse
+        2s
+        ease-in-out
+        infinite;
+
+}
+
+
+.final-surprise-button:hover{
+
+    transform:
+        translateY(-4px)
+        scale(1.05);
+
+    box-shadow:
+
+        0 15px 45px
+        rgba(236,72,153,.6);
+
+}
+
+
+@keyframes finalButtonPulse{
+
+    0%,100%{
+
+        box-shadow:
+            0 10px 35px
+            rgba(139,92,246,.35);
+
+    }
+
+    50%{
+
+        box-shadow:
+            0 10px 50px
+            rgba(236,72,153,.7);
+
+    }
+
+}
+
+
+/* =====================================================
+   FINAL SCREEN
+===================================================== */
+
+#birthdayEndingScreen{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:1000000;
+
+    display:none;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:25px;
+
+    overflow:hidden;
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            rgba(88,28,135,.96),
+            rgba(2,6,23,.99)
+        );
+
+}
+
+
+/* =====================================================
+   FINAL CONTENT
+===================================================== */
+
+.birthday-ending-content{
+
+    position:relative;
+
+    z-index:5;
+
+    width:min(700px,95vw);
+
+    padding:45px 30px;
+
+    border-radius:30px;
+
+    background:
+        rgba(255,255,255,.07);
+
+    border:
+        1px solid
+        rgba(255,255,255,.15);
+
+    backdrop-filter:
+        blur(20px);
+
+    box-shadow:
+
+        0 30px 100px
+        rgba(0,0,0,.6);
+
+    animation:
+
+        endingAppear
+        1s
+        ease;
+
+}
+
+
+@keyframes endingAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            scale(.65)
+            translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            scale(1)
+            translateY(0);
+
+    }
+
+}
+
+
+/* =====================================================
+   FINAL ICON
+===================================================== */
+
+.ending-icon{
+
+    font-size:70px;
+
+    margin-bottom:15px;
+
+    animation:
+
+        endingIcon
+        2s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes endingIcon{
+
+    0%,100%{
+
+        transform:
+            scale(1)
+            rotate(0deg);
+
+    }
+
+    50%{
+
+        transform:
+            scale(1.15)
+            rotate(5deg);
+
+    }
+
+}
+
+
+/* =====================================================
+   FINAL TITLE
+===================================================== */
+
+.birthday-ending-content h1{
+
+    margin:
+        10px 0 20px;
+
+    font-family:
+        'Great Vibes',
+        cursive;
+
+    font-size:
+        clamp(
+            45px,
+            8vw,
+            75px
+        );
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #f9a8d4,
+            #c4b5fd,
+            #fbcfe8
+        );
+
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    color:transparent;
+
+}
+
+
+/* =====================================================
+   FINAL TEXT
+===================================================== */
+
+.birthday-ending-content p{
+
+    color:#eee;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+
+.ending-highlight{
+
+    margin-top:25px;
+
+    color:#f9a8d4 !important;
+
+    font-size:22px !important;
+
+    font-weight:600;
+
+}
+
+
+/* =====================================================
+   FINAL CLOSE
+===================================================== */
+
+.ending-close-button{
+
+    margin-top:30px;
+
+    padding:
+        12px 28px;
+
+    border:
+        1px solid
+        rgba(255,255,255,.2);
+
+    border-radius:30px;
+
+    background:
+        rgba(255,255,255,.08);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.ending-close-button:hover{
+
+    background:
+        rgba(255,255,255,.18);
+
+    transform:
+        translateY(-2px);
+
+}
+
+
+/* =====================================================
+   FLOATING HEARTS
+===================================================== */
+
+.ending-heart{
+
+    position:absolute;
+
+    bottom:-50px;
+
+    pointer-events:none;
+
+    font-size:
+        var(--size);
+
+    animation:
+
+        endingHeartFloat
+        var(--duration)
+        var(--delay)
+        linear
+        forwards;
+
+}
+
+
+@keyframes endingHeartFloat{
+
+    0%{
+
+        opacity:0;
+
+        transform:
+            translateY(0)
+            rotate(0deg);
+
+    }
+
+    10%{
+
+        opacity:.8;
+
+    }
+
+    90%{
+
+        opacity:.7;
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+
+            translateY(-110vh)
+            translateX(var(--drift))
+            rotate(360deg);
+
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px){
+
+    .birthday-ending-content{
+
+        padding:
+            35px 20px;
+
+    }
+
+
+    .birthday-ending-content p{
+
+        font-size:16px;
+
+    }
+
+
+    .ending-highlight{
+
+        font-size:19px !important;
+
+    }
+
+}
+
+`;
+
+document.head.appendChild(part6Style);
+
+
+/* =========================================================
+   CREATE FINAL ENDING SCREEN
+========================================================= */
+
+function createBirthdayEnding(){
+
+    if(
+        document.getElementById(
+            "birthdayEndingScreen"
+        )
+    ){
+
+        return;
+
+    }
+
+
+    const screen =
+        document.createElement(
+            "div"
+        );
+
+
+    screen.id =
+        "birthdayEndingScreen";
+
+
+    screen.innerHTML = `
+
+        <div class="birthday-ending-content">
+
+            <div class="ending-icon">
+                🎂✨
+            </div>
+
+            <h1>
+                Happy Birthday ❤️
+            </h1>
+
+            <p>
+
+                And finally...
+
+                <br><br>
+
+                you've reached the end
+                of your little birthday universe. 🌙
+
+            </p>
+
+            <p class="ending-highlight">
+
+                But this isn't really the end...
+
+                <br>
+
+                It's another beginning. ❤️
+
+            </p>
+
+            <p>
+
+                I hope this year gives you
+                everything your heart wishes for.
+
+                <br><br>
+
+                More adventures.
+
+                <br>
+
+                More laughter.
+
+                <br>
+
+                And a million more memories.
+
+            </p>
+
+            <p style="margin-top:25px;">
+
+                Thank you for being in my life
+
+            </p>
+
+            <button
+                class="ending-close-button"
+                onclick="closeBirthdayEnding()"
+            >
+
+                ❤️ Keep This Memory
+
+            </button>
+
+        </div>
+
+    `;
+
+
+    document.body.appendChild(
+        screen
+    );
+
+
+    createEndingHearts();
+
+}
+
+
+/* =========================================================
+   CREATE ENDING HEARTS
+========================================================= */
+
+function createEndingHearts(){
+
+    const screen =
+        document.getElementById(
+            "birthdayEndingScreen"
+        );
+
+
+    if(!screen){
+
+        return;
+
+    }
+
+
+    const heartList=[
+
+        "❤️",
+        "💕",
+        "💗",
+        "💖",
+        "💜",
+        "✨",
+        "🌸",
+        "⭐"
+
+    ];
+
+
+    for(
+        let i=0;
+        i<30;
+        i++
+    ){
+
+        const heart =
+            document.createElement(
+                "span"
+            );
+
+
+        heart.className =
+            "ending-heart";
+
+
+        heart.innerHTML =
+            heartList[
+                Math.floor(
+                    Math.random() *
+                    heartList.length
+                )
+            ];
+
+
+        heart.style.left =
+            Math.random()*100 +
+            "%";
+
+
+        heart.style.setProperty(
+            "--size",
+            (
+                Math.random()*18+14
+            ) +
+            "px"
+        );
+
+
+        heart.style.setProperty(
+            "--duration",
+            (
+                Math.random()*5+6
+            ) +
+            "s"
+        );
+
+
+        heart.style.setProperty(
+            "--delay",
+            (
+                Math.random()*5
+            ) +
+            "s"
+        );
+
+
+        heart.style.setProperty(
+            "--drift",
+            (
+                Math.random()*180-90
+            ) +
+            "px"
+        );
+
+
+        screen.appendChild(
+            heart
+        );
+
+    }
+
+}
+
+
+/* =========================================================
+   SHOW FINAL ENDING
+========================================================= */
+
+function showBirthdayEnding(){
+
+    /* Close gift popup first */
+
+    const giftPopup =
+        document.getElementById(
+            "giftPopup"
+        );
+
+
+    if(giftPopup){
+
+        giftPopup.style.display =
+            "none";
+
+    }
+
+
+    /* Stop audio */
+
+    document
+        .querySelectorAll("audio")
+        .forEach(function(audio){
+
+            try{
+
+                audio.pause();
+
+            }catch(error){}
+
+        });
+
+
+    /* Stop video */
+
+    document
+        .querySelectorAll("video")
+        .forEach(function(video){
+
+            try{
+
+                video.pause();
+
+            }catch(error){}
+
+        });
+
+
+    createBirthdayEnding();
+
+
+    const screen =
+        document.getElementById(
+            "birthdayEndingScreen"
+        );
+
+
+    if(screen){
+
+        screen.style.display =
+            "flex";
+
+    }
+
+
+    document.body.style.overflow =
+        "hidden";
+
+}
+
+
+/* =========================================================
+   CLOSE FINAL ENDING
+========================================================= */
+
+function closeBirthdayEnding(){
+
+    const screen =
+        document.getElementById(
+            "birthdayEndingScreen"
+        );
+
+
+    if(screen){
+
+        screen.style.display =
+            "none";
+
+    }
+
+
+    document.body.style.overflow =
+        "";
+
+}
+
+
+/* =========================================================
+   ADD BUTTON AFTER EACH GIFT
+========================================================= */
+
+function addGiftEndingButtons(){
+
+    const content =
+        document.getElementById(
+            "giftContent"
+        );
+
+
+    if(!content){
+
+        return;
+
+    }
+
+
+    /*
+       Remove an old action area
+       if Part 4B somehow created one.
+    */
+
+    const oldArea =
+        content.querySelector(
+            ".gift-action-area"
+        );
+
+
+    if(oldArea){
+
+        oldArea.remove();
+
+    }
+
+
+    const actionArea =
+        document.createElement(
+            "div"
+        );
+
+
+    actionArea.className =
+        "gift-action-area";
+
+
+    /* =====================================================
+       CLOSE BUTTON
+    ===================================================== */
+
+    const closeButton =
+        document.createElement(
+            "button"
+        );
+
+
+    closeButton.className =
+        "gift-close-button";
+
+
+    closeButton.type =
+        "button";
+
+
+    closeButton.innerHTML =
+        "✕ Close Gift";
+
+
+    closeButton.onclick =
+        function(){
+
+            if(
+                typeof closeGiftPopup ===
+                "function"
+            ){
+
+                closeGiftPopup();
+
+            }
+
+            else if(
+                typeof closeGift ===
+                "function"
+            ){
+
+                closeGift();
+
+            }
+
+            else{
+
+                const popup =
+                    document.getElementById(
+                        "giftPopup"
+                    );
+
+                if(popup){
+
+                    popup.style.display =
+                        "none";
+
+                }
+
+            }
+
+        };
+
+
+    actionArea.appendChild(
+        closeButton
+    );
+
+
+    /* =====================================================
+       CHECK WHICH GIFT IS OPEN
+    ===================================================== */
+
+    const video =
+        content.querySelector(
+            "#hugVideo"
+        );
+
+
+    /*
+       If the third gift is open,
+       add the FINAL SURPRISE button.
+    */
+
+    if(video){
+
+        const finalButton =
+            document.createElement(
+                "button"
+            );
+
+
+        finalButton.className =
+            "final-surprise-button";
+
+
+        finalButton.type =
+            "button";
+
+
+        finalButton.innerHTML =
+            "✨ One Last Surprise ✨";
+
+
+        finalButton.onclick =
+            function(){
+
+                showBirthdayEnding();
+
+            };
+
+
+        /*
+           Put final button BEFORE
+           the close button.
+        */
+
+        actionArea.insertBefore(
+            finalButton,
+            closeButton
+        );
+
+    }
+
+
+    content.appendChild(
+        actionArea
+    );
+
+}
+
+
+/* =========================================================
+   CONNECT WITH EXISTING openGift()
+========================================================= */
+
+(function(){
+
+    /*
+       Save the openGift function from Part 4B.
+    */
+
+    const originalOpenGift =
+        window.openGift;
+
+
+    if(
+        typeof originalOpenGift !==
+        "function"
+    ){
+
+        console.warn(
+            "Part 6: openGift() was not found. Make sure Part 4B is above Part 6."
+        );
+
+        return;
+
+    }
+
+
+    /*
+       Replace it with a safe wrapper.
+    */
+
+    window.openGift =
+        function(number){
+
+            /*
+               Run the original Gift function.
+            */
+
+            originalOpenGift(number);
+
+
+            /*
+               Wait for Part 4B to finish
+               replacing giftContent.
+            */
+
+            setTimeout(
+                function(){
+
+                    addGiftEndingButtons();
+
+                },
+                900
+            );
+
+        };
+
+})();
+
+
+/* =========================================================
+   EXTRA SAFETY:
+   IF THE GIFT POPUP IS OPENED SOME OTHER WAY
+========================================================= */
+
+const giftPopupForPart6 =
+    document.getElementById(
+        "giftPopup"
+    );
+
+
+if(giftPopupForPart6){
+
+    const observerPart6 =
+        new MutationObserver(
+            function(){
+
+                const content =
+                    document.getElementById(
+                        "giftContent"
+                    );
+
+
+                if(
+                    content &&
+                    content.innerHTML.trim() !== ""
+                ){
+
+                    /*
+                       Only add buttons if
+                       there isn't already one.
+                    */
+
+                    if(
+                        !content.querySelector(
+                            ".gift-action-area"
+                        )
+                    ){
+
+                        addGiftEndingButtons();
+
+                    }
+
+                }
+
+            }
+        );
+
+
+    const giftContentForObserver =
+        document.getElementById(
+            "giftContent"
+        );
+
+
+    if(giftContentForObserver){
+
+        observerPart6.observe(
+            giftContentForObserver,
+            {
+                childList:true,
+                subtree:true
+            }
+        );
+
+    }
+
+}
+
+
+/* =========================================================
+   ESCAPE KEY
+========================================================= */
+
+document.addEventListener(
+    "keydown",
+    function(event){
+
+        if(
+            event.key ===
+            "Escape"
+        ){
+
+            closeBirthdayEnding();
+
+        }
+
+    }
+);
+
+
+/* =========================================================
+   ❤️ PART 6 COMPLETE
+========================================================= */
+</script>
+
+</body>
+
+</html>
+</script>
